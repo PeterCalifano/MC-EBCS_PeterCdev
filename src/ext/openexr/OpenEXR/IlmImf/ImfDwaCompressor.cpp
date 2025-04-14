@@ -126,9 +126,12 @@
 //
 //---------------------------------------------------
 
+#include <cstdint>
+#include <stdint.h>
 
 #include "ImfDwaCompressor.h"
 #include "ImfDwaCompressorSimd.h"
+
 
 #include "ImfChannelList.h"
 #include "ImfStandardAttributes.h"
@@ -171,7 +174,6 @@
 
 
 OPENEXR_IMF_INTERNAL_NAMESPACE_SOURCE_ENTER
-
 #include "dwaLookups.h"
 
 namespace {

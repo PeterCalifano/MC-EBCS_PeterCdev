@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../event-based-repos/EventVision_for_SpaceNav"
+		},
+		{
+			"path": "../../event-based-repos/rpg_vid2e_PeterCdev"
+		},
+		{
+			"path": "../../event-based-repos/trajectory-to-events"
+		},
+		{
+			"path": "../../event-based-repos/v2e_PeterCdev"
+		}
+	],
+	"settings": {}
+}

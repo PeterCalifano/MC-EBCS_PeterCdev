@@ -300,7 +300,7 @@ void ImageTileIntegratorMS::Render() {
     if (!std::filesystem::create_directory(outputDirName)) {
         fprintf(stderr, "overwrite OK? (y/N) : ");
         char c = 'N';
-        scanf_s("%c", &c, 1);
+        sscanf("%c", &c, 1);
         if (c != 'y') {
             exit(1);
         }

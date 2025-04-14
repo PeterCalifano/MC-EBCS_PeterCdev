@@ -39,6 +39,7 @@
 //	Miscellaneous helper functions for OpenEXR image file I/O
 //
 //-----------------------------------------------------------------------------
+#include <cstdint>
 
 #include <ImfMisc.h>
 #include <ImfHeader.h>
